@@ -10,6 +10,8 @@
 
 [Installation](#installation) · [Quick start](#quick-start) · [Tutorials](#tutorials) · [Documentation](docs/)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ts387/bioemu2/blob/main/colab/BioEmu2.ipynb)
+
 <br>
 
 <img src="https://github.com/microsoft/bioemu2/releases/download/readme-media/mcl1_puma_clean_grid_v2.gif" alt="BioEmu2 simulating the PUMA BH3 peptide binding MCL-1" width="420">
@@ -230,6 +232,14 @@ See [use multiple sequence alignments](docs/msa.md) for local-file loading,
 - [Sample large structures](docs/context-parallel-sampling.md) across multiple GPUs with context parallelism.
 
 ## Notebook quickstart
+
+To try BioEmu2 without a local GPU, open
+[`colab/BioEmu2.ipynb`](colab/BioEmu2.ipynb) in
+[Google Colab](https://colab.research.google.com/github/ts387/bioemu2/blob/main/colab/BioEmu2.ipynb).
+It installs BioEmu2 on a Colab GPU runtime and walks through defining a
+system, building an MSA, structure prediction and equilibrium sampling,
+steering, visualization, ensemble analysis, time propagation, and downloading
+the results.
 
 The [`examples`](examples) directory contains complete workflows as regular
 Python files split into executable cells with `# %%` markers. This Python

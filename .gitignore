@@ -102,6 +102,8 @@ target/
 # `# %%` cell markers) instead of notebooks; export a notebook on-demand with
 # `uvx jupytext --to notebook <file>.py` if needed. See README.md.
 *.ipynb
+# The Colab notebook is maintained as a notebook because Colab opens .ipynb files from GitHub.
+!colab/*.ipynb
 .ipynb_checkpoints/
 
 # IPython
